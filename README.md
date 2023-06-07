@@ -10,16 +10,30 @@
   
   ### "Research Package or Module or Application"
   #### Deskripsi
-  Programmer Backend, Frontend dan Mobile serta Quality Assurance melakukan uji coba pada sebuah paket atau module atau aplikasi untuk mendukung pengembangan. Apabila dibutuhkan waktu lebih untuk melakukan aktivitas ini dapat koordinasi dengan PM dan EM produk terkait
+  Menguji coba dan melakukan riset terhadap sebuah _package_, _module_ dan _application_ akan dilakukan oleh programmer Backend, Frontend dan Mobile serta Quality Assurance untuk membantu proses pengembangan _software_. Aktivitas ini dapat dilakukan dalam beberapa bentuk seperti : 
+
+  1. Bertanya kepada teman kerja yang pernah mengerjakan dengan _case_ yang sama atau menyerupai
+  2. Membaca dokumentasi melalui GitHub, NPM, Go Package ataupun website resmi aplikasi
+  3. Melakukan uji coba terhadap _package_ dan _module_ untuk di implementasi
+  4. Melakukan instalasi _application_ diperangkat kerja dan di uji coba
 
   #### Standar
-  Pada Programmer Backend yang menggunakan bahasa pemrograman Golang, NodeJS, Python dan PHP umunnya akan mencari di github.
-  Pada Programmer Frontend yang menggunakan JavaScript umumnya akan mencari di npm.
-  Pada Programmer Mobile dapat menyesuaikan dengan kebutuhan masing masing
-  Pada Quality Assurance apabila membutuhkan tools untuk test seperti K9, Cypress dan lain lain memerlukan informasi dari website masing masing aplikasi. 
+  Aktivitas ini memiliki sebuah standar pengerjaan seperti :
+
+  1. Membuat dokumentasi dari sebuah _package_ dan _module_ yang diuji coba serta rangkuman akhir apakah _package_ dan _module_ dapat digunakan.
+  2. Membuat dokumentasi dari sebuah _application_ yang diinstall dan diuji coba beserta screenshot penggunaan dapat digunakan erta rangkuman akhir apakah _application_ dapat digunakan.
 
   #### Pembobotan
-  Effort untuk melakukan aktivitas ini di sama ratakan sebesar 2 story point dan output berupa dokumen tertulis seperti notion, file text  dan dikirimkan via email perusahaan.
+  Aktivitas ini memiliki pembobotan awal dan dapat berkembang dengan detail :
+  
+  1. **Research - 2 Story Point**
+  <br>Aktivitas "Research Package or Module or Application" digolongkan _research_, apabila dibutuhkan waktu lebih untuk melaksanakan aktivitas ini dapat menghubungi PM dan EM produk terkait.
+
+      Contoh :
+        <code style="color : red">Research Face Detection on Nuxt</code>
+        <code style="color : red">Research Face Detection on Swift</code>
+        <code style="color : red">Research K9 for Analyze on Endpoint</code>
+        <code style="color : red">Research Data Stream on Golang Avoid Create File</code>
 
 
 </details>
@@ -32,12 +46,12 @@
 
   ### "Create Endpoint"
   #### Deskripsi
-  Membuat endpoint akan dilakukan oleh programmer Backend untuk memenuhi proses bisnis yang di butuhkan. Aktivitas ini di kategorikan sebagai :
+  Membuat endpoint akan dilakukan oleh programmer Backend untuk memenuhi proses bisnis yang di butuhkan. Aktivitas ini dikategorikan sebagai :
 
   1. Membuat sebuah route baru yang belum pernah ada
   2. Membuat sebuah route yang sama dengan yang sudah ada namun berbeda HTTP method yang digunakan
   #### Standar
-  Aktivitas ini memiliki sebuah standar pengerjaan seperti
+  Aktivitas ini memiliki sebuah standar pengerjaan seperti :
   1. Penerapan pengecekan _Value_ pada _URL Params_ dan _URL Query Params_ sesuasi kebutuhan dan mencakupi _negative case_ - GET Detail
   2. Penerapan pengecekan _Value_ pada _HTTP Body_ yang digunakan pada _HTTP Body Form-Data_, _HTTP Body Raw_ dan _HTTP x www url encoded_ sesuai kebutuhan dan mencakupi _negative case_ - POST data dan PUT data
   3. Penerapan pengecekan _Meta_ pada _HTTP Response_ dengan menyertakan informasi _page_, _per_page_, _total_ - GET list data
