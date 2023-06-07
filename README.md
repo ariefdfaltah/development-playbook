@@ -45,42 +45,38 @@
   Aktivitas ini memiliki pembobotan awal dan dapat berkembang yang dibagi tiga dengan detail :
 
   1. **Simple - 2 Story Point**
-  Aktivitas "Create Endpoint" digolongkan _simple_ apabila melakukan satu proses yang terhubung ke database untuk mengambil, merubah atau menambahkan suatu _value. Setiap endpoint diharuskan memiliki log baik internal ataupun di Datadog. Aktivitas harus memenuhi semua kriteria dibawah :
+  <br>Aktivitas "Create Endpoint" digolongkan _simple_ apabila melakukan satu proses yang terhubung ke database untuk mengambil, merubah atau menambahkan suatu _value. Setiap endpoint diharuskan memiliki log baik internal ataupun di Datadog. Aktivitas harus memenuhi semua kriteria dibawah :
       1. Melakukan validasi _Value_ dari _URL Params_
       2. Melakukan validasi _Value_ dari _URL Query Params_
       3. Melakukan validasi _Value_ dari _HTTP Body_
 
       Contoh :
-
-        `Endpoint Activate Data`
-        `Endpoint Deactivate Data`
-        `Endpoint Get Detail Data`
-        `Endpoint Create Data`
+        <code style="color : red">Endpoint Activate Data</code>
+        <code style="color : red">Endpoint Deactivate Data</code>
+        <code style="color : red">Endpoint Get Detail Data</code>
+        <code style="color : red">Endpoint Create Data</code>
   &nbsp;
 
   2. **Compound - 4 Story Point**
-  Aktivitas "Create Endpoint" digolongkan _compound_ apabila memenuhi semua aktivitas golongan _simple_ dan minimal satu dari aktivitas dibawah :
+  <br>Aktivitas "Create Endpoint" digolongkan _compound_ apabila memenuhi semua aktivitas golongan _simple_ dan minimal satu dari aktivitas dibawah :
        1. Melakukan Proses Encrypt & Decrypt
        2. Terhubung ke layanan pendukung seperti Google Cloud Storage, Google Pub/Sub dan service lainnya
        3. Endpoint membutuhkan _route internal_ dan _route external_ agar bisa digunakan
 
       Contoh :
-
-        `Endpoint Create Data with Image`
-        `Endpoint Post Data Background Process`
-        `Endpoint Get Detail Data with Presigned Image`
-        `Endpoint Create Data`
+        <code style="color : red">Endpoint Create Data with Image</code>
+        <code style="color : red">Endpoint Post Data Background Process</code>
+        <code style="color : red">Endpoint Get Detail Data with Presigned Image</code>
+        <code style="color : red">Endpoint Create Data</code>
   &nbsp;
 
-  1. **Complex - 6 Story Point**
-  Aktivitas "Create Endpoint" digolongkan _complex_ apabila memenuhi semua aktivitas golongan _compound_ dan minimal satu dari aktivitas dibawah :
+  3. **Complex - 6 Story Point**
+  <br>Aktivitas "Create Endpoint" digolongkan _complex_ apabila memenuhi semua aktivitas golongan _compound_ dan minimal satu dari aktivitas dibawah :
        1. Terhubung ke pihak ketiga secara langsung untuk melakukan pengiriman email, OTP dan kebutuhan lainnya
        2. Terhubug ke pihak ketiga antar produk di privy seperti PrivyTool, PrivySign, PrivyCarstenz dan service lainnya
        3. Melakukan proses yang membutuhkan _service_ lain untuk memastikan kebutuhan bisnis berjalan seperti _generate document_ ataupun hal yang setara dengan hal tersebut
 
       Contoh :
-
-        `Endpoint Submit Data and Generate Document`
-        `Endpoint Submit Data and Send Push Notification`
-
+        <code style="color : red">Endpoint Submit Data and Generate Document</code>
+        <code style="color : red">Endpoint Submit Data and Send Push Notification</code>
 </details>
