@@ -3,12 +3,11 @@
 
 # Pre Development
 ---
-
 ## 1. Backend, Frontend, Mobile & Quality Assurance
 <details>
   <summary>1.1. Research Package or Module or Application</summary>
   
-  ### "Research Package or Module or Application"
+  ### "Research Package or Module or Application :: Code=11"
   #### Deskripsi
   Menguji coba dan melakukan riset terhadap sebuah _package_, _module_ dan _application_ akan dilakukan oleh programmer Backend, Frontend dan Mobile serta Quality Assurance untuk membantu proses pengembangan _software_. Aktivitas ini dapat dilakukan dalam beberapa bentuk seperti : 
 
@@ -44,7 +43,7 @@
 <details>
   <summary>2.1. Create Endpoint</summary>
 
-  ### "Create Endpoint"
+  ### "Create Endpoint :: Code=21"
   #### Deskripsi
   Membuat endpoint akan dilakukan oleh programmer Backend untuk memenuhi proses bisnis yang di butuhkan. Aktivitas ini dikategorikan sebagai :
 
@@ -93,4 +92,64 @@
       Contoh :
         <code style="color : red">Endpoint Submit Data and Generate Document</code>
         <code style="color : red">Endpoint Submit Data and Send Push Notification</code>
+</details>
+
+<details>
+  <summary>2.2. Fixing Endpoint</summary>
+
+  ### "Fixing Endpoint :: Code=22"
+</details>
+
+<details>
+  <summary>2.3. Update Endpoint</summary>
+
+  ### "Update Endpoint :: Code=23"
+</details>
+
+<details>
+  <summary>2.4. Create Function</summary>
+
+  ### "Create Function :: Code=24"
+</details>
+
+<details>
+  <summary>2.5. Fixing Function</summary>
+
+  ### "Fixing Function :: Code=25"
+</details>
+
+<details>
+  <summary>2.6. Update Function</summary>
+
+  ### "Update Function :: Code=26"
+</details>
+
+<details>
+  <summary>2.7. Create Client</summary>
+
+  ### "Create Client :: Code=27"
+</details>
+
+<details>
+  <summary>2.8. Fixing Client</summary>
+
+  ### "Fixing Client :: Code=28"
+</details>
+
+<details>
+  <summary>2.9. Update Client</summary>
+
+  ### "Update Client :: Code=29"
+</details>
+
+<details>
+  <summary>2.10. Create API Contract</summary>
+
+  ### "Create API Contract :: Code=210"
+</details>
+
+<details>
+  <summary>2.11. Update API Contract</summary>
+
+  ### "Update API Contract :: Code=211"
 </details>
